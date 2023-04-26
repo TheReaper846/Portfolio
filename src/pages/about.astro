@@ -5,58 +5,43 @@ import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
 ---
 
-<BaseLayout title="About | Jeanine White" description="About Jeanine White Lorem Ipsum">
+<BaseLayout title="À propos | Amine SIARI" description="À propos d'Amine SIARI">
 	<div class="stack gap-20">
 		<main class="wrapper about">
 			<Hero
-				title="About"
-				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
+				title="À propos"
+				tagline="Découvrez mon parcours et mes compétences."
 			>
-				<img
-					width="1553"
-					height="873"
-					src="/assets/at-work.jpg"
-					alt="Jeanine White at work with a colleague"
-				/>
 			</Hero>
 
 			<section>
 				<h2 class="section-title">Background</h2>
 				<div class="content">
 					<p>
-						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy.
-						Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum
-						id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla
-						pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+						Je suis étudiant en L3 Informatique à Marseille et j'ai récemment été accepté dans le parcours MSc Pro en alternance à Epitech, je suis à la recherche d'une alternance de 24 mois commençant à partir du 21 août 2023.
 					</p>
+					<br>
 					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
-					</p>
-					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
+						Le développement logiciel est un domaine qui me passionne énormément. J'aime le processus de création, de conception et d'implémentation de logiciels qui résolvent des problèmes et améliorent la vie des gens. Que ce soit pour le développement mobile ou web, j'apprécie l'aspect créatif de ce domaine qui permet de construire des produits innovants et fonctionnels à partir de zéro.
 					</p>
 				</div>
 			</section>
 			<section>
-				<h2 class="section-title">Education</h2>
+				<h2 class="section-title">Diplômes</h2>
 				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
+					<p>Licence Informatique (BAC+3). 
+						<br>
+						Baccalauréat Scientique.
+					</p>
 				</div>
 			</section>
 			<section>
 				<h2 class="section-title">Skills</h2>
 				<div class="content">
-					<p>officia unde omnis</p>
+					<p>Créatif, Curieux, Organisé, Polyvalent, Rigoureux, Travail d'équipe</p>
 				</div>
 			</section>
 		</main>
-
 		<ContactCTA />
 	</div>
 </BaseLayout>
@@ -115,6 +100,18 @@ import Hero from '../components/Hero.astro';
 		section {
 			display: contents;
 			font-size: var(--text-lg);
+		}
+		button {
+			display: flex;
+			padding: 0.5rem 1rem;
+			gap: 0.5rem;
+			color: var(--accent-text-over);
+			border: 1px solid var(--accent-regular);
+			background-color: var(--accent-regular);
+			border-radius: 999rem;
+			font-size: var(--text-md);
+			line-height: 1.35;
+			white-space: nowrap;
 		}
 	}
 </style>
