@@ -14,7 +14,7 @@ tags:
 
 Projet réalisé dans le cadre de l’UE Compilation. En binôme.
 
-Objectif : En partant d'une base de code fournie par l'enseignant, réaliser en langage JAVA un compilateur.
+Objectif : En partant d'une base de code fournie par l'enseignant, réalisé en langage JAVA un compilateur.
 
 Description : Le système est composé de plusieurs entités : le compilateur, le code source du programme, la table des symboles, les instructions de l'architecture cible et le code machine généré.
 

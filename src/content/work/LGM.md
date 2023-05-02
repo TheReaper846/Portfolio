@@ -13,7 +13,7 @@ tags:
 
 ### Planification et conception du site :
 
-La première étape consistait à élaborer un plan de conception pour notre site de paris fictif sur l'esport. Cela comprend l'identification des fonctionnalités nécessaires, telles que la création de comptes, le gain de fonds, la sélection de paris et l'affichage des cotes.
+La première étape consistait à élaborer un plan de conception pour notre site de paris fictifs sur l'esport. Cela comprend l'identification des fonctionnalités nécessaires, telles que la création de comptes, le gain de fonds, la sélection de paris et l'affichage des cotes.
 
 ### Choix des technologies :
 Nous avons ensuite choisi les technologies nécessaires pour créer notre site de pari fictif. Nous avons utilisé les langages de programmation tels que HTML, CSS et JavaScript pour créer des pages web dynamiques. Nous avons également un système de base de données pour stocker les informations utilisateur et les données de pari. 
